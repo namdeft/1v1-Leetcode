@@ -1,32 +1,28 @@
-# Put question title here<br> Easy
+# Put question title here<br> Hard
 
-Write a function createHelloWorld. It should return a new function that always returns "Hello World".
+## Detail of question
 
 Example 1:
 
 <pre>
-Input: args = []
-Output: "Hello World"
-Explanation: const f = createHelloWorld();
-f(); // "Hello World"
-
-The function returned by createHelloWorld should always return "Hello World".
+Input:
+Output:
+Explanation:
 </pre>
 
 Example 2:
 
 <pre>
-Input: args = [{},null,42]
-Output: "Hello World"
-Explanation: const f = createHelloWorld();
-f({}, null, 42); // "Hello World"
-
-Any arguments could be passed to the function but it should still always return "Hello World".
+Input:
+Output:
+Explanation:
 </pre>
 
 Constraints:
 
--   0 <= args.length <= 10
+-   `0 <= args.length <= 10`
+-   `Constraint 2`
+-   `Constraint 3`
 
 <details>
 

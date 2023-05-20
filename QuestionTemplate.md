@@ -20,7 +20,7 @@ Explanation:
 
 Constraints:
 
--   `0 <= args.length <= 10`
+-   `Constraint 1`
 -   `Constraint 2`
 -   `Constraint 3`
 

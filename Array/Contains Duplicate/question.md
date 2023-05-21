@@ -34,14 +34,11 @@ Constraints:
 -   `-109 <= nums[i] <= 109`
 
 <details>
-
 <summary> Similar Questions </summary>
 
 -   `Contains Duplicate II - Easy`
 -   `Contains Duplicate III - Hard`
 -   `Make Array Zero by Subtracting Equal Amounts - Easy`
-
-</details>
 
 <summary> Related Topics </summary>
 

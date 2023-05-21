@@ -8,6 +8,7 @@ class Solution {
 
         // Put single letter into vector as an index ('a' = 0, 'c' = 2)
         vector<int> freq(26, 0);
+
         for (int i = 0; i < s.length(); i++) {
             freq[s[i] - 'a']++;
             freq[t[i] - 'a']--;

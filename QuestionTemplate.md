@@ -22,33 +22,20 @@ Constraints:
 
 -   `Constraint 1`
 -   `Constraint 2`
--   `Constraint 3`
 
 <details>
+<summary> Similar Questions </summary>
 
+-   `Question 1`
+-   `Question 2`
+-   `Question 3`
+
+</details>
+
+<details>
 <summary> Related Topics </summary>
 
 -   `Topic 1`
 -   `Topic 2`
 
-</details>
-
-<details>
-<summary> Hint 1 </summary>
-Hint 1
-</details>
-
-<details>
-<summary> Hint 2 </summary>
-Hint 2
-</details>
-
-<details>
-<summary> Hint 3 </summary>
-Hint 3
-</details>
-
-<details>
-<summary> Hint 4 </summary>
-Hint 4
 </details>

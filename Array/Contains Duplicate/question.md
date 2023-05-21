@@ -33,14 +33,19 @@ Constraints:
 -   `1 <= nums.length <= 105`
 -   `-109 <= nums[i] <= 109`
 
+<details>
 <summary> Similar Questions </summary>
 
 -   `Contains Duplicate II - Easy`
 -   `Contains Duplicate III - Hard`
 -   `Make Array Zero by Subtracting Equal Amounts - Easy`
+</details>
 
+<details>
 <summary> Related Topics </summary>
 
 -   `Array`
 -   `Hash Table`
 -   `Sorting`
+
+</details>

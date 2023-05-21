@@ -33,7 +33,6 @@ Constraints:
 -   `1 <= nums.length <= 105`
 -   `-109 <= nums[i] <= 109`
 
-<details>
 <summary> Similar Questions </summary>
 
 -   `Contains Duplicate II - Easy`
@@ -45,5 +44,3 @@ Constraints:
 -   `Array`
 -   `Hash Table`
 -   `Sorting`
-
-</details>

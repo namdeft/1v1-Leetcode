@@ -1,6 +1,8 @@
-# Put question title here<br> Hard
+# Put question title here
 
-## Detail of question
+# Hard
+
+Detail of question
 
 Example 1:
 

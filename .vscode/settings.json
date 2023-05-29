@@ -12,6 +12,8 @@
         "unordered_map": "cpp",
         "__locale": "cpp",
         "__string": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "stack": "cpp",
+        "istream": "cpp"
     }
 }

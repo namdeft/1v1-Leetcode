@@ -15,6 +15,7 @@
         "iosfwd": "cpp",
         "stack": "cpp",
         "istream": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "ios": "cpp"
     }
 }

@@ -6,10 +6,11 @@ class Solution {
         int size = nums.size();
 
         while (right < size) {
-            if (nums[right] == 0) {
-                right++;
+            if (nums[right] != 0) {
+                swap(nums[left], nums[right]);
+                left++;
             }
-            left++;
+            right++;
         }
     }
 };

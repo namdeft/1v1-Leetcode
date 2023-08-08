@@ -1,4 +1,5 @@
 class ParkingSystem {
+  
   constructor(big: number, medium: number, small: number) {
       
   }

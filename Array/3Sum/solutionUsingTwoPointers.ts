@@ -6,18 +6,20 @@ function threeSum(nums: number[]): number[][] {
       if(i > 0 && nums[i] === nums[i - 1]) return;
       let left = i + 1;
       let right = nums.length - 1;
-      let sum: number = value + nums[left] + nums[right];
-
+      
       while(left < right) {
+          let sum: number = value + nums[left] + nums[right];
           if(sum < 0) left++;
           if(sum > 0) right--;
           if(sum === 0) {
               result.push([value, nums[left], nums[right]])
               left++;
               right--;
+              while(left < right && nums[left] === nums[left - 1]) left++;
           }
-
       }
+
+      return result;
   })
 
   return result;

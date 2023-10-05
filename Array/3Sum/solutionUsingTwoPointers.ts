@@ -18,8 +18,6 @@ function threeSum(nums: number[]): number[][] {
               while(left < right && nums[left] === nums[left - 1]) left++;
           }
       }
-
-      return result;
   })
 
   return result;

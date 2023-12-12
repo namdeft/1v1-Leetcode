@@ -10,4 +10,4 @@ class LRUCache {
   put(key: number, value: number): void {
 
   }
-}.
+}

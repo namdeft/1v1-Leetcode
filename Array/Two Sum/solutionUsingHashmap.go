@@ -1,16 +1,16 @@
+package main
+
 func twoSum(nums []int, target int) []int {
-	var results []int
-	numsMap := make(map[int]int)
+	var result []int
+	hashMap := make(map[int]int)
 
-	for index, value := range nums {
-		numNeeds := target - value
-
-		if pairNumNeeds, ok := numsMap[numNeeds]; ok {
-			return append(results, index, pairNumNeeds)
+	for i, num := range nums {
+		found := target - num
+		if val, ok := hashMap[found]; ok {
+			result = append(result, i, val)
 		}
-
-		numsMap[value] = index
+		hashMap[num] = i
 	}
 
-	return results
+	return result
 }

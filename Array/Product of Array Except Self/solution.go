@@ -12,11 +12,15 @@ func productExceptSelf(nums []int) []int {
 		product *= v
 	}
 
-	for i, v := range nums {
-		if numberOfZero == 0 {
+	if numberOfZero == 0 {
+		for i, v := range nums {
 			result[i] = product / v
-		} else if numberOfZero == 1 {
-			result[i] = product
+		}
+	} else if numberOfZero == 1 {
+		for i, v := range nums {
+			if v == 0 {
+				result[i] = product
+			}
 		}
 	}
 

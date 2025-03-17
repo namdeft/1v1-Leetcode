@@ -37,9 +37,9 @@ Constraints:
 <details>
 <summary> Similar Questions </summary>
 
--   `Subarrays with K Different Integers - Hard`
 -   `Maximum Erasure Value - Medium`
 -   `Minimum Consecutive Cards to Pick Up - Medium`
+-   `Subarrays with K Different Integers - Hard`
 
 </details>
 

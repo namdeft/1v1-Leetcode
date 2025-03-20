@@ -1,16 +1,16 @@
 func missingNumber(nums []int) int {
 	var result int
-	var calculatedSum int
-	var expectedSum int
+	mp := make(map[int]int)
 
-	for i := 0; i <= len(nums); i++ {
-		expectedSum += i
+	for i := 0; i < len(nums); i++ {
+		mp[nums[i]]++
 	}
 
-	for _, val := range nums {
-		calculatedSum += val
+	for j := 0; j <= len(nums); j++ {
+		if _, ok := mp[j]; !ok {
+			result = j
+		}
 	}
 
-	result = expectedSum - calculatedSum
 	return result
 }

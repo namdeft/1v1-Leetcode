@@ -6,6 +6,9 @@ func maxProfit(prices []int) int {
 
 	for i := 1; i < len(prices); i++ {
 		currentProfit := prices[i] - prices[i-1]
+		if currentProfit > 0 {
+			result += currentProfit
+		}
 	}
 
 	return result

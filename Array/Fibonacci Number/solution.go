@@ -10,7 +10,6 @@ func fib(n int) int {
 
 	mp[n] = fib(n-1) + fib(n-2)
 	result = mp[n]
-
 	return result
 }
 

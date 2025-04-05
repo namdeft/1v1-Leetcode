@@ -8,15 +8,19 @@
  */
 func postorderTraversal(root *TreeNode) []int {
 	var results []int
-	if root == nil {
-		return results
-	}
+	stack := []*TreeNode{root}
+	for len(stack) > 0 {
+		node := stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
 
-	leftNodes := postorderTraversal(root.Left)
-	rightNodes := postorderTraversal(root.Right)
-	results = append(results, leftNodes...)
-	results = append(results, rightNodes...)
-	results = append(results, root.Val)
+		if node == nil {
+			continue
+		}
+
+		stack = append(stack, node.Left)
+		stack = append(stack, node.Right)
+		results = append([]int{node.Val}, results...)
+	}
 
 	return results
 }
